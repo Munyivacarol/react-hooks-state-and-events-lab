@@ -39,9 +39,12 @@ span[role="image"] {
 
 .App.dark {
   --font-color: rgb(255, 255, 255);
-  --background: rgb(50, 50, 50);
+  background-color:#000;
   --background--light: rgb(80, 80, 80);
   transition: all 0.3s;
+}
+.App.Light {
+  background-color: white;
 }
 
 .App {
